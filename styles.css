@@ -1,5 +1,5 @@
 body {
-  background-color: #c7ddcc;
+  background: #c7ddcc;
   font-family: Arial;
   display: flex;
   flex-wrap: wrap;
@@ -7,24 +7,19 @@ body {
 h1 {
   color: white;
   text-align: center;
-  width: 100%;
   display: block;
+  width: 100%;
 }
 h2{
   color: white;
 }
 h2:hover {
   color: white;
-  text-align: center;
   width: 100%;
   display:block;
 }
-a{
-  text-decoration: none;
-  color: black;
-}
 .assign {
-  background-color: #39603D;
+  background: #39603D;
   margin:10px;
   padding:10px;
   border-radius: 20px;
@@ -36,11 +31,16 @@ a{
   width: 200px;
   padding: 10px;
   border: 2px solid #DADED4;
+  margin: 1px;
 }
 .assign img:hover {
   width: 200px;
   margin: 10px;
   border: 2px dotted white;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 
