@@ -1,6 +1,6 @@
 body {
-  background: #c7ddcc;
-  font-family: Helvetica;
+  background-color: #c7ddcc;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -10,13 +10,16 @@ h1 {
   width: 100%;
   display: block;
 }
-
 h1:hover {
   color: hotpink;
   text-align: center;
   width: 100%;
   display:block;
-
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 .assign {
   background-color: grey;
   border-radius: 20px;
@@ -25,29 +28,16 @@ h1:hover {
   display: block;
   padding: 10px;
   margin: 10px;
-  background: white;
 }
-
 .assign img {
   width: 200px;
   padding: 10px;
-  border: 2px solid white;
+  border: 2px solid midnightblue;
 }
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
 .assign img:hover {
   width: 200px;
   margin: 10px;
   border: 2px dotted white;
-
-Explain a:hover, img:hover, h1:hover
-  a:hover{
-    text-decoration: none;
-    color: salmon;
 }
 
 
