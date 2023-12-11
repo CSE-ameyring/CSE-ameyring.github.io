@@ -1,14 +1,28 @@
 body {
   background: #c7ddcc;
   font-family: Helvetica;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
   color: white;
   text-align: center;
+  width: 100%;
+  display: block;
 }
 
+h1:hover {
+  color: hotpink;
+  text-align: center;
+  width: 100%;
+  display:block;
+
 .assign {
-  display: flex;
+  background-color: grey;
+  border-radius: 20px;
+  width: 20%
+  box-shadow: 8px 8px brown;
+  display: block;
   padding: 10px;
   margin: 10px;
   background: white;
@@ -17,6 +31,7 @@ h1 {
 .assign img {
   width: 200px;
   padding: 10px;
+  border: 2px solid white;
 }
 
 a{
@@ -24,14 +39,10 @@ a{
   color: white;
 }
 
-.assign img{
-  padding: 10px;
-  border: 2px solid white;
-}
-
-.assign{
-  border-radius: 20px;
-}
+.assign img:hover {
+  width: 200px;
+  margin: 10px;
+  border: 2px dotted white;
 
 Explain a:hover, img:hover, h1:hover
   a:hover{
